@@ -1,4 +1,4 @@
-with import <nixpkgs> { };
+with import <nixpkgs> { allowUnfree = true; };
 pkgs.mkShell {
   name = "example-uv-workflow"; # change this to something more catchy
   # Here is where you will add all the libraries required by your native modules

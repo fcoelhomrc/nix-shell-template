@@ -59,5 +59,10 @@
           packages = [ pkgs.uv ];
         };
       };
+
+      templates.default = {
+        path = ./.;
+        description = "Python/CUDA dev shell";
+      };
     };
 }

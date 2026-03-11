@@ -4,6 +4,11 @@ Reproducible dev shells via Nix flakes. Includes CUDA native libs for Python ML 
 
 ## Usage
 
+### Copy flake into new project
+```sh 
+nix flake init -t github:fcoelhomrc/nix-shell-template
+```
+
 ### With direnv (recommended)
 
 ```sh
